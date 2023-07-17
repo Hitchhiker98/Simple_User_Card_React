@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 export class UserCardClass extends React.Component {
   render() {
@@ -11,9 +11,9 @@ export class UserCardClass extends React.Component {
           <div className="label">Phone:</div>
           <div>{this.props.phoneNumber}</div>
           <div className="label">Address:</div>
-          <div>{this.props.adress}</div>
+          <div>{this.props.address}</div>
         </div>
       </div>
-    );
+    )
   }
 }
